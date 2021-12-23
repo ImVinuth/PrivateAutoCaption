@@ -20,8 +20,8 @@ async def start_meg(client, update):
     text = f"""<b> 👋Hello {update.from_user.mention}\n\nI am an AutoCaption bot\n\nAll you have to do is add me to your channel and I will show you my power\n\nFor more info check help Button\n\n {MT}</b>"""
     reply_markup =  InlineKeyboardMarkup( [[
         InlineKeyboardButton("help↗️", callback_data="heroku"),
-        InlineKeyboardButton("🗣️Group", url="t.me/mo_tech_Group"),
-        InlineKeyboardButton("Channel📢", url="t.me/mo_tech_yt")
+        InlineKeyboardButton("🗣️Group", url="t.me/Vinuth96"),
+        InlineKeyboardButton("Channel📢", url="t.me/Vinuth_BOTs")
         ]]
     )
     await update.reply_text(
